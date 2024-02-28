@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>"The Test" quiz game</title>
+</head>
+<body>
+    <!--Make sure to add Scoring divs in the main and card pop up in the main as well the button inside the Div needs to have a span, also add a score in the header-->
+    <!--<header class="header" id="header">
+        <div class="instructions" id="instructions">
+            <h2 class="instr" id="instr">This game will test your knowledge and skills in all things nerd and culture based. Now Lets see if you can beat this faster than Han beat the Kessel run!</h2>
+        </div>
+    </header>--->
+    <main class="main" id="main">            
+        <section class="sectionScore" id="sectionScore">
+                <div class="divScore" id="divScore">
+                    <h4 class="yourScore" id="yourScore">Your Score:</h4>
+                    <span class="span" id="user-score">0</span>
+                    <span> / </span>
+                    <span class="span" id="total-score">0</span>
+                </div>
+        </section>
+        <div class="content" id="question-area">
+                <div id="question-text"></div>
+                <div class="options">
+                    <button class="btn btn-option" id="True">True</button>
+                    <button class="btn btn-option" id="False">False</button>
+                </div>
+        </div>
+        <!--<section class="buttonSection">--->
+            <div class="controls">
+                <!--<button class="btn btn-start" id="start">Start Game</button>-->
+                <button class="btn btn-next" id="next">Next</button>
+                <button class="btn btn-prev" id="prev">Prev</button>
+                <button class="btn btn-sub" id="submit">Submit</button>
+                <button class="btn btn-restart" id="restart">restart</button>
+            </div>
+       <!-- </section>-->
+                <!--<section class="section2" id="section2">
+                    <div class="div2" id="div2">
+                        <h4 class="kessel" id="kessel"></h4>
+                            <img class="img2" src="images/Star-Wars-The-Force-Awakens-0023.webp" alt="">
+                    </div>
+                </section>--->
+                <!--Dont forget that your score is here Robert! It should go by tens-->
+        <!---<section class="section1" id="section1">
+            <div class="div1" id="div1">
+                <h3 class="instruction" id="instruction">This game will test your knowledge and skills in all things nerd and culture based. Now Lets see if you can beat this faster than Han beat the Kessel run! Press start below</h3>
+            </div>
+        </section>--->
+                        
+    </main>
+    <footer class="footer" id="foot"></footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
